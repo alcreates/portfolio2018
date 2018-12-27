@@ -1,0 +1,61 @@
+.aboutMe {
+    height: 400px;
+    background-color: #5D1942;
+    padding:100px;
+    padding-top:25px;
+}
+.title {
+    font-family: 'Electrolize', sans-serif;
+    color:white;
+    font-size: 30px;
+}
+
+.myPicture{
+    background-image: url("../../Assets/Images/al.jpg"); 
+    height: 100px; 
+    width: 100px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+    display: flex;
+    box-shadow: 3px 3px #320435;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: -25px;
+}
+
+.card {
+    height:150px;
+    width: 400px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-family: 'Electrolize', sans-serif;
+    padding: 50px;
+    position: relative;
+    margin-top: 100px;
+  }
+
+  .filler {
+    background-image: url("/assets/Images/screens.png"); 
+    height: 400px; 
+    width: 400px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+    margin-top:20px;
+  
+   
+  }
+  .aboutMeContent {
+      display: flex;
+      justify-content: space-around;
+  }
+  .card p {
+      text-align: left;
+  }

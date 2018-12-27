@@ -1,0 +1,14 @@
+
+
+.header {
+    display: flex;
+    color: white;
+    background-color: #320435;
+    height: 70px;
+    align-items: center;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 20px;
+}
+.header span {
+    margin-left:20px;
+}

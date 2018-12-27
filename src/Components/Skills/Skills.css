@@ -1,0 +1,35 @@
+.skills {
+    background-color: #942F41;
+    height: 450px;
+    font-family: 'Electrolize', sans-serif;
+    padding:100px;
+    padding-top:30px;
+    
+}
+.title {
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 30px;
+   
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    padding-top: 60px;
+}
+.skills .content div {
+   
+    margin: 20px;
+}
+.content i {
+    font-size: 100px;
+    margin: 20px;
+    color: white;
+ 
+}
+.skillsContainer {
+    display: flex;
+
+}
