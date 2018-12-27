@@ -45,7 +45,8 @@
     .workCard {
         width: 262px;
         margin: 5px;
-        height: 230px;
+        height: 83px;
+        background-size: 361px;
     }
     .description div {
         width: 280px;
