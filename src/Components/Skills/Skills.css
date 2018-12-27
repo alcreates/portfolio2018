@@ -33,3 +33,25 @@
     display: flex;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .content{
+        flex-direction: column;
+        padding: 0px;
+        height: 900px;
+    }
+    .skills {
+        padding: 0px;
+        height: 100%;
+    }
+    .skillsContainer {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+    .skills .content div {
+   
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+  }

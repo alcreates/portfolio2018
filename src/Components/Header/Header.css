@@ -8,7 +8,11 @@
     align-items: center;
     font-family: 'Electrolize', sans-serif;
     font-size: 20px;
+    justify-content: space-between
 }
 .header span {
     margin-left:20px;
+}
+.contactInfo {
+    font-size: 15px;
 }

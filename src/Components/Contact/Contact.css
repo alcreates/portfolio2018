@@ -1,0 +1,12 @@
+.contact {
+    background-color: #5D1942;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2px;
+    text-align: left;
+}
+.contact div {
+    margin: 3px;
+}

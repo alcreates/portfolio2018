@@ -11,7 +11,7 @@
 }
 
 .myPicture{
-    background-image: url("../../Assets/Images/al.jpg"); 
+    background-image: url("/assets/Images/al.jpg"); 
     height: 100px; 
     width: 100px;
     background-position: center; 
@@ -38,6 +38,12 @@
     position: relative;
     margin-top: 100px;
   }
+  .contact {
+    font-family: 'Electrolize', sans-serif;
+    color: whitesmoke;
+    display: flex;
+    padding-left: 50px;
+  }
 
   .filler {
     background-image: url("/assets/Images/screens.png"); 
@@ -58,4 +64,17 @@
   }
   .card p {
       text-align: left;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .aboutMe {
+        padding: 40px;
+        height: 500px;
+    }
+    .filler {
+        display: none;
+    }
+    .card {
+        height: 200px;
+    }
   }

@@ -1,0 +1,56 @@
+.myWork {
+    background-color: #C74741;
+    height: 850px;
+    font-family: 'Electrolize', sans-serif;
+    padding: 100px;
+    padding-top: 20px;
+}
+.description {
+    font-family: 'Electrolize', sans-serif;
+    color:white;
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    text-align: left;
+   
+}
+.description div {
+    width: 400px;
+    margin: 5px;
+}
+.workContainer {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    margin-top:40px;
+}
+
+.workCard {
+    height: 200px; 
+    width: 500px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .myWork {
+        padding: 0px;
+        height: 100%;
+        padding-bottom:30px;
+        padding-top: 30px;
+   
+    }
+    .workCard {
+        width: 300px;
+        margin: 5px;
+        height: 230px;
+    }
+    .description div {
+        width: 280px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+}
+

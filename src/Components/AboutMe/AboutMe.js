@@ -16,6 +16,7 @@ const AboutMe = () => {
                 </div>
                 <div className="filler"></div>
             </div>
+         
         </div>
     )
 }
