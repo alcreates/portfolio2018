@@ -43,6 +43,7 @@
     .skills {
         padding: 0px;
         height: 100%;
+        padding-top: 20px;
     }
     .skillsContainer {
         flex-direction: column;
