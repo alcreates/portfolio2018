@@ -11,7 +11,7 @@ const MyWork = () => {
                 <Card dates="8/1/2018 - current" 
                  description= "Provided tutoring services to over eighty plus students in a vast array of technology platforms. "
                 image='./assets/Images/trilogy.png'/>
-                <Card dates="9/20/2018 - 12/1/2018" 
+                <Card dates="9/20/2017 - 12/1/2018" 
                  description="Created a SaaS platform from the ground up that currently services several NYC restaurants. "
                 image='./assets/Images/sitParker.png'/>
                 <Card dates="7/10/2018 - 8/10/2018" 
